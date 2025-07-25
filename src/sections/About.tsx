@@ -1,6 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-import { useRef, useEffect } from 'react';
+import { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -208,7 +208,7 @@ export default function About() {
             className="text-gray-300 font-sans text-lg md:text-xl leading-relaxed mb-8"
             initial={{ opacity: 0 }}
           >
-            I'm <span className="text-[#facc15] font-medium">Ava</span>, a graphic designer with a passion for storytelling through <span className="text-[#3b82f6]">color</span>, <span className="text-[#ef4444]">shape</span>, and <span className="text-[#8b5cf6]">typography</span>.
+            I&apos;m <span className="text-[#facc15] font-medium">Ava</span>, a graphic designer with a passion for storytelling through <span className="text-[#3b82f6]">color</span>, <span className="text-[#ef4444]">shape</span>, and <span className="text-[#8b5cf6]">typography</span>.
           </motion.p>
 
           <motion.p
@@ -218,7 +218,7 @@ export default function About() {
             transition={{ duration: 1, delay: 1.2 }}
             viewport={{ once: true }}
           >
-            With over <span className="text-[#facc15]">5 years</span> of experience, I've helped <span className="text-[#3b82f6]">startups</span>, <span className="text-[#ef4444]">artists</span>, and <span className="text-[#8b5cf6]">brands</span> create bold visual identities that stand out and communicate effectively.
+            With over <span className="text-[#facc15]">5 years</span> of experience, I&apos;ve helped <span className="text-[#3b82f6]">startups</span>, <span className="text-[#ef4444]">artists</span>, and <span className="text-[#8b5cf6]">brands</span> create bold visual identities that stand out and communicate effectively.
           </motion.p>
         </motion.div>
 

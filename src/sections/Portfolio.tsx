@@ -520,7 +520,7 @@ export default function Portfolio() {
                       animate={{ opacity: 1 }}
                       transition={{ delay: 1.2 }}
                     >
-                      "{projects[selectedProject].caseStudy.testimonial}"
+                      &quot;{projects[selectedProject].caseStudy.testimonial}&quot;
                     </motion.blockquote>
                   </motion.section>
                   

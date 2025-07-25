@@ -306,7 +306,7 @@ export default function Hero() {
             whileHover={{ scale: 1.02 }}
             transition={{ type: 'spring', stiffness: 400, damping: 10 }}
           >
-            Hello, I'm <span className="text-[#ff4d4d]">Ava</span> —
+            Hello, I&apos;m <span className="text-[#ff4d4d]">Ava</span> —
           </motion.span>
           <motion.span 
             className="block"

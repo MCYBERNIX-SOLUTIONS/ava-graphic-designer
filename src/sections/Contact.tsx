@@ -172,7 +172,7 @@ export default function Contact() {
           className="text-5xl md:text-7xl font-serif text-center mb-6 text-[#facc15] relative flex justify-center items-center"
           initial={{ opacity: 0 }}
         >
-          <span className="relative z-10 py-6">Let's Work Together</span>
+          <span className="relative z-10 py-6">Let&apos;s Work Together</span>
           <motion.span
             className="absolute -bottom-3 left-0 w-full h-1 bg-[#facc15]"
             initial={{ scaleX: 0 }}
@@ -189,7 +189,7 @@ export default function Contact() {
           transition={{ delay: 0.3, duration: 0.8 }}
           viewport={{ once: true }}
         >
-          Got a project or idea? I'd love to hear about it.
+          Got a project or idea? I&apos;d love to hear about it.
         </motion.p>
 
         <AnimatePresence mode="wait">
@@ -210,7 +210,7 @@ export default function Contact() {
                 ✨
               </motion.div>
               <h3 className="text-2xl font-serif text-green-300 mb-2">Message Sent!</h3>
-              <p className="text-gray-300">I'll get back to you soon.</p>
+              <p className="text-gray-300">I&apos;ll get back to you soon.</p>
             </motion.div>
           ) : (
             <motion.form

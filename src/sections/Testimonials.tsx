@@ -240,7 +240,7 @@ export default function Testimonials() {
                       animate={{ opacity: 1 }}
                       transition={{ delay: 0.5 }}
                     >
-                      "{feedback.quote}"
+                      &quot;{feedback.quote}&quot;
                     </motion.blockquote>
                     
                     <motion.div

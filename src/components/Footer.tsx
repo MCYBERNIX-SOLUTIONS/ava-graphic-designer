@@ -58,7 +58,7 @@ export default function Footer() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Let's Work Together
+              Let&apos;s Work Together
             </motion.a>
           </div>
         </motion.div>
